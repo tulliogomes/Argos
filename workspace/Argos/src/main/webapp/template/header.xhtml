@@ -13,21 +13,12 @@
 		    <p:menuitem url="../usuario/home.jsf?faces-redirect=true" >
             <span class="glyphicon glyphicon-home"></span>
             </p:menuitem>
-			    <p:submenu label="Livro" icon="ui-icon-note" style="margin-left:2%">
-				    <p:menuitem value="Novo" action="#{livroBean.goCadastro}" />
-				    <p:menuitem value="Acervo" action="#{livroBean.goLivros}" />
-			    </p:submenu>
 			    <p:submenu label="Usuário" icon="ui-icon-person">
 				    <p:menuitem value="Novo" action="#{usuarioBean.goCadastro}" />
 				    <p:menuitem value="Usuários" action="#{usuarioBean.goUsuarios}" />
 				    <p:menuitem value="Alterar Senha" action="/usuario/alterar_senha?faces-redirect=true" />
 			    </p:submenu>
-			    <p:submenu label="Empréstimo" icon="ui-icon-document">
-				    <p:menuitem value="Novo" action="#{emprestimoBean.goCadastro}" />
-				    <p:menuitem value="Empréstimos" action="#{emprestimoBean.goEmprestimos}" />
-			    </p:submenu>
 			    <p:submenu label="Consultas" icon="ui-icon-lightbulb">
-				    <p:menuitem value="Buscar livro" action="/livro/busca?faces-redirect=true"/> 
 				    <p:menuitem value="Buscar usuário" action="/usuario/busca?faces-redirect=true"/> 
 			    </p:submenu>
 			    <f:facet name="options">
