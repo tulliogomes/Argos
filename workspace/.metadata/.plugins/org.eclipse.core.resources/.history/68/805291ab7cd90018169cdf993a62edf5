@@ -139,6 +139,16 @@ public class UsuarioBean extends GenericBean implements Serializable {
 		return "/usuario/usuarios?faces-redirect=true";
 	}
 
+	public boolean temEmprestimos(Usuario usuario) {
+		UsuarioController controller = new UsuarioController();
+		return controller.temEmprestimos(usuario);
+	}
+
+	public boolean temEmprestimosAtivos(Usuario usuario) {
+		UsuarioController controller = new UsuarioController();
+		return controller.temEmprestimosAtivos(usuario);
+	}
+
 	public void listarUsuariosAtivos() {
 		UsuarioController controller = new UsuarioController();
 		this.usuarios = controller.listarUsuariosAtivos();

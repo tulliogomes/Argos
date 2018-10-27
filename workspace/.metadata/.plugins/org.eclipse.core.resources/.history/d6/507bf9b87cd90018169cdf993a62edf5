@@ -13,7 +13,7 @@ public class PasswordUtil {
 		try {
 			md = MessageDigest.getInstance("MD5");
 		} catch (NoSuchAlgorithmException e) {
-			new RuntimeException("Algoritmo de criptografia n„o encontrado");
+			new RuntimeException("Algoritmo de criptografia n√£o encontrado");
 		}
 		StringBuilder sb = new StringBuilder();
 		for (byte b : md.digest(senha.getBytes())) {

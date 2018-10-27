@@ -2677,3 +2677,20 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2018-10-25 22:59:39,209 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hilberto\Documents\Hilberto\Faculdades\IFPB\IFPB 2018.2\DEPS\workspace\Argos\src\main\resources
 2018-10-25 22:59:39,212 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2018-10-25 22:59:39,222 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hilberto\Documents\Hilberto\Faculdades\IFPB\IFPB 2018.2\DEPS\workspace\Argos\src\test\resources
+2018-10-26 20:52:19,826 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-10-26 20:52:42,632 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-26 20:52:42,644 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hilberto\Documents\Hilberto\Faculdades\IFPB\IFPB 2018.2\DEPS\workspace\Argos\src\main\resources
+2018-10-26 20:52:42,647 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-26 20:52:42,659 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hilberto\Documents\Hilberto\Faculdades\IFPB\IFPB 2018.2\DEPS\workspace\Argos\src\test\resources
+2018-10-26 21:09:51,822 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-26 21:09:51,838 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hilberto\Documents\Hilberto\Faculdades\IFPB\IFPB 2018.2\DEPS\workspace\Argos\src\main\resources
+2018-10-26 21:09:51,841 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-26 21:09:51,853 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hilberto\Documents\Hilberto\Faculdades\IFPB\IFPB 2018.2\DEPS\workspace\Argos\src\test\resources
+2018-10-26 21:10:11,749 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-26 21:10:11,774 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hilberto\Documents\Hilberto\Faculdades\IFPB\IFPB 2018.2\DEPS\workspace\Argos\src\main\resources
+2018-10-26 21:10:11,776 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-26 21:10:11,853 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hilberto\Documents\Hilberto\Faculdades\IFPB\IFPB 2018.2\DEPS\workspace\Argos\src\test\resources
+2018-10-26 21:10:34,251 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-26 21:10:34,267 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hilberto\Documents\Hilberto\Faculdades\IFPB\IFPB 2018.2\DEPS\workspace\Argos\src\main\resources
+2018-10-26 21:10:34,269 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-26 21:10:34,301 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hilberto\Documents\Hilberto\Faculdades\IFPB\IFPB 2018.2\DEPS\workspace\Argos\src\test\resources
