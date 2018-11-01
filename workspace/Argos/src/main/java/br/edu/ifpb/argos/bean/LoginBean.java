@@ -21,14 +21,12 @@ public class LoginBean extends GenericBean {
 			this.setValueOf("#{sessionScope.loginUser}", String.class, usuarioLogado.getNome());
 			proxView = "/usuario/home?faces-redirect=true";
 		} else {
-			FacesMessage msg = new FacesMessage("Login inválido.");
-			msg.setSeverity(FacesMessage.SEVERITY_ERROR);
-			FacesContext.getCurrentInstance().addMessage(null, msg);
+			this.addErrorMessage("Login inválido !");
+			proxView = "index?faces-redirect=true";
 		}
 
 		return proxView;
 	}
-	
 
 	public String logout() {
 		this.invalidateSession();

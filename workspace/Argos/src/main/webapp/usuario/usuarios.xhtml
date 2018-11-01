@@ -13,7 +13,7 @@
 </f:metadata>
 <h:body>
 	<ui:composition template="../template/template.xhtml">
-		<ui:define name="ttitle">Acervo da Biblioteca</ui:define>
+		<ui:define name="ttitle">Usuários</ui:define>
 		<ui:define name="tbody">
 			<h:form id="formLivros">
 				<h:messages errorStyle="color:red" infoStyle="color:blue"
@@ -88,6 +88,19 @@
 									rendered="#{usuario.matricula != loginBean.usuarioLogado.matricula}">
 									<i class="glyphicon glyphicon-edit"></i>
 								</h:commandLink>
+								
+								
+								<h:commandLink action="#{usuarioBean.excluir(usuario)}"
+									value=""
+									style="width:30%; 
+									           color:red; 
+									           padding:10px"
+									rendered="#{usuario.matricula != loginBean.usuarioLogado.matricula and not usuario.status}">
+									<i class="glyphicon glyphicon-trash"></i>
+								</h:commandLink>
+								
+								
+								
 							</h:column>
 						</h:dataTable>
 					</p:tab>

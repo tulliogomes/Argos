@@ -25,6 +25,9 @@
 			     
 			<h:form id="formLogin" 
 			        styleClass="form-signin">
+			        
+			      
+					
 	   <h:panelGrid id="loginPanel" 
 				    columns="2">
 				   
@@ -56,12 +59,13 @@
 					             value="Entrar"
 					             style="width:30%; margin-left:35%; margin-top:10%">
 				</p:commandButton>
-				<h:messages infoStyle="color:blue" 
-				            errorStyle="color:red"
-					        layout="table">
-			    </h:messages>
+				
+				<h:messages errorStyle="color:red" infoStyle="color:blue"
+					layout="table" />
 			</h:form>
+		
 		</p:panel>
 	</div>
+				    
 </h:body>
 </html>

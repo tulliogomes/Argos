@@ -13,7 +13,7 @@
 </f:metadata>
 <h:body>
 	<ui:composition template="../template/template.xhtml">
-		<ui:define name="ttitle">Cadastro de novo usuário</ui:define>
+		<ui:define name="ttitle">Usuário</ui:define>
 		<ui:define name="tbody">
 
 			<h:form>
@@ -87,6 +87,7 @@
 								<p:outputLabel for="nascimento" value="Nascimento " />
 								<p:calendar 
 								           id="nascimento" 
+								           required="true"
 								           value="#{usuarioBean.nascimento}"
 									       pattern="dd-MM-yyyy"/>
 								<p:message for="nascimento" 
