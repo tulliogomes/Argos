@@ -7,7 +7,7 @@
 	 xmlns:ui="http://java.sun.com/jsf/facelets">
 
 <ui:component>
-	<h:panelGroup rendered="#{loginBean.usuarioLogado.perfil eq 'funcionario'}">
+	<h:panelGroup rendered="#{loginBean.usuarioLogado.perfil eq 'administrador'}">
 		<h:form>  
 		  <p:menubar style="font-size:14pt; padding:10px">
 		    <p:menuitem url="../usuario/home.jsf?faces-redirect=true" >
@@ -35,16 +35,16 @@
 		</h:form>	
 	 </h:panelGroup>
 	 
-<!-- 	 Menu do aluno -->
+<!-- 	 Menu do usuário -->
 	 
-	 <h:panelGroup rendered="#{loginBean.usuarioLogado.perfil eq 'aluno'}">
+	
+	  <h:panelGroup rendered="#{loginBean.usuarioLogado.perfil eq 'usuario'}">
 		 <h:form>
 			 <p:menubar style="font-size:14pt; padding:10px">
 				 <p:menuitem url="../usuario/home.jsf?faces-redirect=true" >
 			     	<span class="glyphicon glyphicon-home"></span>
 			     </p:menuitem>
-			     <p:menuitem value="Buscar Livro" action="/livro/busca?faces-redirect=true"/> 
-			     <p:menuitem value="Alterar Senha" action="/usuario/alterar_senha?faces-redirect=true" />
+			      <p:menuitem value="Buscar usuário" action="/usuario/busca?faces-redirect=true"/> 
 				 <f:facet name="options">
 				 #{loginBean.usuarioLogado.nome}
 				 (#{loginBean.usuarioLogado.perfil})
