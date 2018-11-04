@@ -18,6 +18,10 @@
 				    <p:menuitem value="Usuários" action="#{usuarioBean.goUsuarios}" />
 				    <p:menuitem value="Alterar Senha" action="/usuario/alterar_senha?faces-redirect=true" />
 			    </p:submenu>
+			    <p:submenu label="Pessoa" icon="ui-icon-person">
+			    	<p:menuitem value="Novo" action="#{pessoaBean.goCadastroPessoa}" />
+			    	
+			    </p:submenu>
 			    <p:submenu label="Consultas" icon="ui-icon-lightbulb">
 				    <p:menuitem value="Buscar usuário" action="/usuario/busca?faces-redirect=true"/> 
 			    </p:submenu>
