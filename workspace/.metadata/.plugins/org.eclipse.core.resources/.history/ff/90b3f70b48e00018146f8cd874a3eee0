@@ -22,7 +22,6 @@ public class LoginBean extends GenericBean {
 			proxView = "/usuario/home?faces-redirect=true";
 		} else {
 			this.addErrorMessage("Login inválido !");
-			System.out.println(matricula+", "+senha);
 			proxView = "index?faces-redirect=true";
 		}
 

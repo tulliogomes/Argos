@@ -32,8 +32,7 @@
 								               required="true"
 									           requiredMessage="Informe a matrícula"
 								     	       value="#{usuarioBean.matricula}" 
-								     	       minLength="6"
-									           maxlength="6">
+									           maxlength="11">
 							  <f:convertNumber integerOnly="true" 
 						                       maxFractionDigits="0" />
 								</p:inputText>
@@ -165,8 +164,6 @@
 						    </h:panelGrid></h:panelGrid>
 					</p:tab>
 				</p:tabView>
-				<h:messages errorStyle="color:red" infoStyle="color:blue"
-					layout="table" />
 			</h:form>
 		</ui:define>
 	</ui:composition>

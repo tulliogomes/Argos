@@ -18,11 +18,11 @@ public class LoginBean extends GenericBean {
 		String proxView = null;
 		LoginController controller = new LoginController();
 		if ((usuarioLogado = controller.isValido(matricula, senha)) != null) {
+			System.out.println(matricula+", "+senha);
 			this.setValueOf("#{sessionScope.loginUser}", String.class, usuarioLogado.getNome());
 			proxView = "/usuario/home?faces-redirect=true";
 		} else {
 			this.addErrorMessage("Login inválido !");
-			System.out.println(matricula+", "+senha);
 			proxView = "index?faces-redirect=true";
 		}
 

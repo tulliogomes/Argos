@@ -59,7 +59,7 @@ public class UsuarioBean extends GenericBean implements Serializable {
 				usuario.setPerfil(perfil);
 				usuario.setFone(telefone);
 				usuario.setDataAniversario(nascimento);
-				usuario.setSenha(senha);
+				usuario.setSenha(PasswordUtil.encryptMD5(senha));
 				usuario.setStatus(true);
 				controller.cadastrar(usuario);
 				this.addSuccessMessage("Usuario salvo com sucesso");
