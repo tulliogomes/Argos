@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="InsereDadosParaTeste" project="Argos" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="br.edu.ifpb.argos.test.InsereDadosParaTeste" time="0.046">
-    <testcase name="testInsereUsuarios" classname="br.edu.ifpb.argos.test.InsereDadosParaTeste" time="0.046"/>
-  </testsuite>
-</testrun>

@@ -18,12 +18,26 @@
 				    <p:menuitem value="Usuários" action="#{usuarioBean.goUsuarios}" />
 				    <p:menuitem value="Alterar Senha" action="/usuario/alterar_senha?faces-redirect=true" />
 			    </p:submenu>
+			    
+			     <p:submenu label="Crime" icon="ui-icon-person">
+				    <p:menuitem value="Novo" action="#{crimeBean.goCadastro}" />
+				    <p:menuitem value="Crimes" action="#{crimeBean.goCrimes}" />
+			    </p:submenu>
+			    
+			      <p:submenu label="Informacao" icon="ui-icon-person">
+				    <p:menuitem value="Nova" action="#{informacaoBean.goCadastro}" />
+				    <p:menuitem value="Informacões" action="#{informacaoBean.goInformacoes}" />
+			    </p:submenu>
+			    
 			    <p:submenu label="Pessoa" icon="ui-icon-person">
 			    	<p:menuitem value="Novo" action="#{pessoaBean.goCadastroPessoa}" />
 			    	
 			    </p:submenu>
 			    <p:submenu label="Consultas" icon="ui-icon-lightbulb">
 				    <p:menuitem value="Buscar usuário" action="/usuario/busca?faces-redirect=true"/> 
+				    <p:menuitem value="Buscar Informação" action="/informacao/busca?faces-redirect=true"/> 
+				    <p:menuitem value="Buscar Crime" action="/crime/busca?faces-redirect=true"/> 
+				    
 			    </p:submenu>
 			    <f:facet name="options">
 				    #{loginBean.usuarioLogado.nome}

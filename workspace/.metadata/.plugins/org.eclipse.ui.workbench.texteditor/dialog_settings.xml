@@ -2,15 +2,19 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="&#x09;&#x09;return createEntityManagerFactory( persistenceUnitName, null );" key="selection"/>
+		<item value="Crime" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="Usuario"/>
+			<item value="PESSOA"/>
 			<item value="&#x09;&#x09;return createEntityManagerFactory( persistenceUnitName, null );"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Crime"/>
+			<item value="CRIME"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

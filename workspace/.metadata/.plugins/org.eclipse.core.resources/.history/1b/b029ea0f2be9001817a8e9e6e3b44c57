@@ -1,0 +1,15 @@
+package br.edu.ifpb.argos.dao;
+
+import javax.persistence.EntityManager;
+import br.edu.ifpb.argos.entity.Crime;
+
+public class InformacaoDAO extends GenericDAO<Crime, Integer> {
+
+	public InformacaoDAO() {
+		this(PersistenceUtil.getCurrentEntityManager());
+	}
+
+	public InformacaoDAO(EntityManager em) {
+		super(em);
+	}
+}
