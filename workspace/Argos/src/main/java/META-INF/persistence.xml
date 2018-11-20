@@ -6,6 +6,7 @@
 		<class>br.edu.ifpb.argos.entity.Pessoa</class>
 		<class>br.edu.ifpb.argos.entity.Investigacao</class>
 		<class>br.edu.ifpb.argos.entity.Crime</class>
+		<class>br.edu.ifpb.argos.entity.Fato</class>
 		<class>br.edu.ifpb.argos.entity.Informacao</class>
 		<properties>
 			<property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect" />

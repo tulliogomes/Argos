@@ -24,6 +24,11 @@
 				    <p:menuitem value="Crimes" action="#{crimeBean.goCrimes}" />
 			    </p:submenu>
 			    
+			    <p:submenu label="Fato" icon="ui-icon-person">
+				    <p:menuitem value="Novo" action="#{fatoBean.goCadastro}" />
+				    <p:menuitem value="Fatos" action="#{fatoBean.goFatos}" />
+			    </p:submenu>
+			    
 			      <p:submenu label="Informacao" icon="ui-icon-person">
 				    <p:menuitem value="Nova" action="#{informacaoBean.goCadastro}" />
 				    <p:menuitem value="Informacões" action="#{informacaoBean.goInformacoes}" />
@@ -36,7 +41,8 @@
 			    <p:submenu label="Consultas" icon="ui-icon-lightbulb">
 				    <p:menuitem value="Buscar usuário" action="/usuario/busca?faces-redirect=true"/> 
 				    <p:menuitem value="Buscar Informação" action="/informacao/busca?faces-redirect=true"/> 
-				    <p:menuitem value="Buscar Crime" action="/crime/busca?faces-redirect=true"/> 
+				    <p:menuitem value="Buscar Crime" action="/crime/busca?faces-redirect=true"/>
+				    <p:menuitem value="Buscar Fato" action="/fato/busca?faces-redirect=true"/> 
 				    
 			    </p:submenu>
 			    <f:facet name="options">
